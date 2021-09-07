@@ -42,6 +42,10 @@ Public Class Decrire_ImageSonTexte
                     supprimerInfo.Visible = False
                     seconde4 = 0
                     afficherLesInfosBulles.Stop()
+                Case "lbl_AjouterImageOuSon"
+                    lbl_AjouterImageOuSon.Visible = False
+                    seconde4 = 0
+                    afficherLesInfosBulles.Stop()
             End Select
         End If
         seconde4 += 1
@@ -154,6 +158,7 @@ Public Class Decrire_ImageSonTexte
         panneauDeSuppression.Visible = False
         msg_ImageInexistante1.Visible = False
         msg_ImageInexistante2.Visible = False
+        ajouterImageOuMusique.Visible = False
         optionSelectioner = descriptionTextuelle.Name
         rendreVisibleTousLesElementsDesDescriptions(False)
 
@@ -197,6 +202,8 @@ Public Class Decrire_ImageSonTexte
 
     Private Sub descriptionImage_Click(sender As Object, e As EventArgs) Handles descriptionImage.Click
         panneauDeSuppression.Visible = False
+        ajouterImageOuMusique.Visible = True
+        lbl_AjouterImageOuSon.Text = "Ajouter une image."
         optionSelectioner = descriptionImage.Name
         rendreVisibleTousLesElementsDesDescriptions(True)
         lecteurMusique.close()
@@ -234,6 +241,8 @@ Public Class Decrire_ImageSonTexte
         panneauDeSuppression.Visible = False
         msg_ImageInexistante1.Visible = False
         msg_ImageInexistante2.Visible = False
+        ajouterImageOuMusique.Visible = True
+        lbl_AjouterImageOuSon.Text = "Ajouter du son."
         optionSelectioner = descriptionSonore.Name
         rendreVisibleTousLesElementsDesDescriptions()
     End Sub
@@ -387,5 +396,17 @@ Public Class Decrire_ImageSonTexte
 
     Private Sub Btn_Non_Click(sender As Object, e As EventArgs) Handles Btn_Non.Click
         panneauDeSuppression.Visible = False
+    End Sub
+
+    Private Sub ajouterImageOuMusique_MouseHover(sender As Object, e As EventArgs) Handles ajouterImageOuMusique.MouseHover
+        lbl_AjouterImageOuSon.Visible = True
+        infoBulleActive = lbl_AjouterImageOuSon.Name
+        afficherLesInfosBulles.Start()
+    End Sub
+
+    Private Sub ajouterImageOuMusique_MouseLeave(sender As Object, e As EventArgs) Handles ajouterImageOuMusique.MouseLeave
+        lbl_AjouterImageOuSon.Visible = False
+        afficherLesInfosBulles.Stop()
+        seconde4 = 0
     End Sub
 End Class
