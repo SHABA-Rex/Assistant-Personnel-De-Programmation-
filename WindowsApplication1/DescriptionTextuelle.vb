@@ -328,7 +328,7 @@ Public Class DescriptionTextuelle
             afficherLesResultatsEnDescendantDansLaListeDeTousLesElements(listeDeResultatsDeLaRecherche)
             '^^^^^
             '#########
-
+            Decrire_ImageSonTexte.Lbl_NomElmtASupprimer.Text = nomDeLelement
             Close()
             Decrire_ImageSonTexte.Show()
         End If

@@ -83,6 +83,7 @@ Partial Class Decrire_ImageSonTexte
         Me.Lbl_NomElmtASupprimer = New System.Windows.Forms.Label()
         Me.msg_ImageInexistante1 = New Guna.UI.WinForms.GunaGradientButton()
         Me.msg_ImageInexistante2 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.ajouterFichierSonore = New Guna.UI.WinForms.GunaCircleButton()
         CType(Me.lecteurMusique, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.panneauDeSuppression.SuspendLayout()
@@ -735,7 +736,7 @@ Partial Class Decrire_ImageSonTexte
         Me.GunaImageButton21.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaImageButton21.Image = Nothing
         Me.GunaImageButton21.ImageSize = New System.Drawing.Size(64, 64)
-        Me.GunaImageButton21.Location = New System.Drawing.Point(650, -74)
+        Me.GunaImageButton21.Location = New System.Drawing.Point(689, -74)
         Me.GunaImageButton21.Name = "GunaImageButton21"
         Me.GunaImageButton21.OnHoverImage = Nothing
         Me.GunaImageButton21.OnHoverImageOffset = New System.Drawing.Point(0, 0)
@@ -1159,12 +1160,37 @@ Partial Class Decrire_ImageSonTexte
         Me.msg_ImageInexistante2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.msg_ImageInexistante2.Visible = False
         '
+        'ajouterFichierSonore
+        '
+        Me.ajouterFichierSonore.AnimationHoverSpeed = 0.07!
+        Me.ajouterFichierSonore.AnimationSpeed = 0.03!
+        Me.ajouterFichierSonore.BackColor = System.Drawing.Color.Transparent
+        Me.ajouterFichierSonore.BaseColor = System.Drawing.Color.Orange
+        Me.ajouterFichierSonore.BorderColor = System.Drawing.Color.Black
+        Me.ajouterFichierSonore.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.ajouterFichierSonore.FocusedColor = System.Drawing.Color.Empty
+        Me.ajouterFichierSonore.Font = New System.Drawing.Font("Segoe UI", 20.0!)
+        Me.ajouterFichierSonore.ForeColor = System.Drawing.Color.White
+        Me.ajouterFichierSonore.Image = Global.WindowsApplication1.My.Resources.Resources.plus_math_50px
+        Me.ajouterFichierSonore.ImageSize = New System.Drawing.Size(25, 25)
+        Me.ajouterFichierSonore.Location = New System.Drawing.Point(649, -1)
+        Me.ajouterFichierSonore.Name = "ajouterFichierSonore"
+        Me.ajouterFichierSonore.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ajouterFichierSonore.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.ajouterFichierSonore.OnHoverForeColor = System.Drawing.Color.White
+        Me.ajouterFichierSonore.OnHoverImage = Nothing
+        Me.ajouterFichierSonore.OnPressedColor = System.Drawing.Color.Indigo
+        Me.ajouterFichierSonore.Size = New System.Drawing.Size(35, 35)
+        Me.ajouterFichierSonore.TabIndex = 183
+        Me.ajouterFichierSonore.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAliasGridFit
+        '
         'Decrire_ImageSonTexte
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.ajouterFichierSonore)
         Me.Controls.Add(Me.msg_ImageInexistante2)
         Me.Controls.Add(Me.msg_ImageInexistante1)
         Me.Controls.Add(Me.panneauDeSuppression)
@@ -1288,4 +1314,5 @@ Partial Class Decrire_ImageSonTexte
     Friend WithEvents Lbl_NomElmtASupprimer As Label
     Friend WithEvents msg_ImageInexistante1 As Guna.UI.WinForms.GunaGradientButton
     Friend WithEvents msg_ImageInexistante2 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents ajouterFichierSonore As Guna.UI.WinForms.GunaCircleButton
 End Class
