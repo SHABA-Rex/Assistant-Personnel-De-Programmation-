@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<parametresDuTexte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Police1>Gill Sans MT</Police1>
+  <CouleurTexte1>Black</CouleurTexte1>
+  <CouleurFond1>Yellow</CouleurFond1>
+  <Taille1>12</Taille1>
+</parametresDuTexte>

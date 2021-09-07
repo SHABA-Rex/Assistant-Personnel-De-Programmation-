@@ -1,0 +1,84 @@
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\Guna.UI.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\Guna.UI.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionImage.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionTextuelle.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.InformationsPourLaBarreDeRecherche.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.FenetreTousLesElementsEtBarreDeRecherche.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionAudio.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.FenetreChargement.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Decrire_ImageSonTexte.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\Travaux\PANTEON DES REALISATIONS\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\Guna.UI.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionImage.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionTextuelle.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionAudio.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.Decrire_ImageSonTexte.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.FenetreChargement.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.FenetreTousLesElementsEtBarreDeRecherche.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.InformationsPourLaBarreDeRecherche.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\Guna.UI.pdb
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionImage.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionTextuelle.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.DescriptionAudio.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.Decrire_ImageSonTexte.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.FenetreChargement.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.FenetreTousLesElementsEtBarreDeRecherche.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.InformationsPourLaBarreDeRecherche.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation - Copie\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\obj\Debug\Interop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.ResolveComReference.cache
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\ARMAND COLLINS MBA\Desktop\Programmations\InterfacesProg\AssistantPersonnelDeProgrammation -\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
