@@ -81,6 +81,8 @@ Partial Class Decrire_ImageSonTexte
         Me.Btn_Non = New Guna.UI.WinForms.GunaButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Lbl_NomElmtASupprimer = New System.Windows.Forms.Label()
+        Me.msg_ImageInexistante1 = New Guna.UI.WinForms.GunaGradientButton()
+        Me.msg_ImageInexistante2 = New Guna.UI.WinForms.GunaGradientButton()
         CType(Me.lecteurMusique, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.panneauDeSuppression.SuspendLayout()
@@ -1099,12 +1101,72 @@ Partial Class Decrire_ImageSonTexte
         Me.Lbl_NomElmtASupprimer.Text = "Bin"
         Me.Lbl_NomElmtASupprimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'msg_ImageInexistante1
+        '
+        Me.msg_ImageInexistante1.AnimationHoverSpeed = 0.07!
+        Me.msg_ImageInexistante1.AnimationSpeed = 0.03!
+        Me.msg_ImageInexistante1.BaseColor1 = System.Drawing.Color.SlateBlue
+        Me.msg_ImageInexistante1.BaseColor2 = System.Drawing.Color.Fuchsia
+        Me.msg_ImageInexistante1.BorderColor = System.Drawing.Color.Black
+        Me.msg_ImageInexistante1.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.msg_ImageInexistante1.Enabled = False
+        Me.msg_ImageInexistante1.FocusedColor = System.Drawing.Color.Empty
+        Me.msg_ImageInexistante1.Font = New System.Drawing.Font("Open Sans Light", 19.0!)
+        Me.msg_ImageInexistante1.ForeColor = System.Drawing.Color.White
+        Me.msg_ImageInexistante1.Image = Nothing
+        Me.msg_ImageInexistante1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.msg_ImageInexistante1.ImageSize = New System.Drawing.Size(0, 0)
+        Me.msg_ImageInexistante1.Location = New System.Drawing.Point(407, 186)
+        Me.msg_ImageInexistante1.Name = "msg_ImageInexistante1"
+        Me.msg_ImageInexistante1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.msg_ImageInexistante1.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.msg_ImageInexistante1.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.msg_ImageInexistante1.OnHoverForeColor = System.Drawing.Color.White
+        Me.msg_ImageInexistante1.OnHoverImage = Nothing
+        Me.msg_ImageInexistante1.OnPressedColor = System.Drawing.Color.Black
+        Me.msg_ImageInexistante1.Size = New System.Drawing.Size(580, 91)
+        Me.msg_ImageInexistante1.TabIndex = 181
+        Me.msg_ImageInexistante1.Text = "Aucune image à afficher."
+        Me.msg_ImageInexistante1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.msg_ImageInexistante1.Visible = False
+        '
+        'msg_ImageInexistante2
+        '
+        Me.msg_ImageInexistante2.AnimationHoverSpeed = 0.07!
+        Me.msg_ImageInexistante2.AnimationSpeed = 0.03!
+        Me.msg_ImageInexistante2.BaseColor1 = System.Drawing.Color.SlateBlue
+        Me.msg_ImageInexistante2.BaseColor2 = System.Drawing.Color.Fuchsia
+        Me.msg_ImageInexistante2.BorderColor = System.Drawing.Color.Black
+        Me.msg_ImageInexistante2.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.msg_ImageInexistante2.Enabled = False
+        Me.msg_ImageInexistante2.FocusedColor = System.Drawing.Color.Empty
+        Me.msg_ImageInexistante2.Font = New System.Drawing.Font("Open Sans Light", 14.0!)
+        Me.msg_ImageInexistante2.ForeColor = System.Drawing.Color.White
+        Me.msg_ImageInexistante2.Image = Nothing
+        Me.msg_ImageInexistante2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.msg_ImageInexistante2.ImageSize = New System.Drawing.Size(0, 0)
+        Me.msg_ImageInexistante2.Location = New System.Drawing.Point(407, 252)
+        Me.msg_ImageInexistante2.Name = "msg_ImageInexistante2"
+        Me.msg_ImageInexistante2.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(CType(CType(155, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(221, Byte), Integer))
+        Me.msg_ImageInexistante2.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(85, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.msg_ImageInexistante2.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.msg_ImageInexistante2.OnHoverForeColor = System.Drawing.Color.White
+        Me.msg_ImageInexistante2.OnHoverImage = Nothing
+        Me.msg_ImageInexistante2.OnPressedColor = System.Drawing.Color.Black
+        Me.msg_ImageInexistante2.Size = New System.Drawing.Size(580, 22)
+        Me.msg_ImageInexistante2.TabIndex = 182
+        Me.msg_ImageInexistante2.Text = "assurez vous que l'image n'ai  pas été supprimée ou modifiée."
+        Me.msg_ImageInexistante2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.msg_ImageInexistante2.Visible = False
+        '
         'Decrire_ImageSonTexte
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.msg_ImageInexistante2)
+        Me.Controls.Add(Me.msg_ImageInexistante1)
         Me.Controls.Add(Me.panneauDeSuppression)
         Me.Controls.Add(Me.supprimerInfo)
         Me.Controls.Add(Me.corbeille)
@@ -1224,4 +1286,6 @@ Partial Class Decrire_ImageSonTexte
     Friend WithEvents Btn_Non As Guna.UI.WinForms.GunaButton
     Friend WithEvents Label2 As Label
     Friend WithEvents Lbl_NomElmtASupprimer As Label
+    Friend WithEvents msg_ImageInexistante1 As Guna.UI.WinForms.GunaGradientButton
+    Friend WithEvents msg_ImageInexistante2 As Guna.UI.WinForms.GunaGradientButton
 End Class

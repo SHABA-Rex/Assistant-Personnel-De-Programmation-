@@ -152,6 +152,8 @@ Public Class Decrire_ImageSonTexte
 
     Private Sub descriptionTextuelle_Click(sender As Object, e As EventArgs) Handles descriptionTextuelle.Click
         panneauDeSuppression.Visible = False
+        msg_ImageInexistante1.Visible = False
+        msg_ImageInexistante2.Visible = False
         optionSelectioner = descriptionTextuelle.Name
         rendreVisibleTousLesElementsDesDescriptions(False)
 
@@ -230,6 +232,8 @@ Public Class Decrire_ImageSonTexte
 
     Private Sub descriptionSonore_Click(sender As Object, e As EventArgs) Handles descriptionSonore.Click
         panneauDeSuppression.Visible = False
+        msg_ImageInexistante1.Visible = False
+        msg_ImageInexistante2.Visible = False
         optionSelectioner = descriptionSonore.Name
         rendreVisibleTousLesElementsDesDescriptions()
     End Sub
@@ -269,17 +273,23 @@ Public Class Decrire_ImageSonTexte
     Private Sub previousImage_Click(sender As Object, e As EventArgs) Handles previousImage.Click
         If (mesImages.LongCount <> 0) Then
             indexImageAfficher -= 1
-            If (indexImageAfficher < 0) Then
+            If (indexImageAfficher < 0) Then 'ICI LES IMAGES EXISTENT, DONC PAS BESOINS D'AFFICHER NOS MESSAGES.
                 indexImageAfficher = mesImages.LongCount - 1
+                msg_ImageInexistante1.Visible = False
+                msg_ImageInexistante2.Visible = False
             End If
 
             Try
                 imageAfficher = New Bitmap(mesImages(indexImageAfficher)) 'Dim imageAfficher As New Bitmap(mesImages(indexImageAfficher))
                 lesImages.Image = imageAfficher
                 lesImages.ImageSize = imageAfficher.Size
-            Catch ex As Exception
-
+            Catch ex As Exception 'ICI LES IMAGES EXISTENT MAIS IL Y'A UN PROBLEME DESSUS , DONC ON VA AFFICHER NOS MESSAGES.
+                msg_ImageInexistante1.Visible = True
+                msg_ImageInexistante2.Visible = True
             End Try
+        Else 'ICI LES IMAGES N'EXISTENT PAS OU ON RENCONTRENT DES PROBLEMES A LEUR OUVERTURE ; DONC ON VA AFFICHER NOS MESSAGES 
+            msg_ImageInexistante1.Visible = True
+            msg_ImageInexistante2.Visible = True
         End If
     End Sub
 
@@ -288,6 +298,8 @@ Public Class Decrire_ImageSonTexte
             indexImageAfficher += 1
             If (indexImageAfficher = mesImages.LongCount) Then
                 indexImageAfficher = 0
+                msg_ImageInexistante1.Visible = False
+                msg_ImageInexistante2.Visible = False
             End If
 
             Try
@@ -295,8 +307,12 @@ Public Class Decrire_ImageSonTexte
                 lesImages.Image = imageAfficher
                 lesImages.ImageSize = imageAfficher.Size
             Catch ex As Exception
-
+                msg_ImageInexistante1.Visible = True
+                msg_ImageInexistante2.Visible = True
             End Try
+        Else
+            msg_ImageInexistante1.Visible = True
+            msg_ImageInexistante2.Visible = True
         End If
     End Sub
 

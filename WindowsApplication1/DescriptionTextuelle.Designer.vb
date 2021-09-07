@@ -116,6 +116,7 @@ Partial Class DescriptionTextuelle
         '
         'ChampTextuel
         '
+        Me.ChampTextuel.AllowDrop = True
         Me.ChampTextuel.BackColor = System.Drawing.Color.Transparent
         Me.ChampTextuel.BaseColor = System.Drawing.Color.White
         Me.ChampTextuel.BorderColor = System.Drawing.Color.Silver
