@@ -526,5 +526,10 @@ Module Les_Fonctions
         Next
         Return laDescriptionTextuelle
     End Function
+
+    Public Sub ExplorerDesMedias(explorateurDeMedia As OpenFileDialog, cheminDacces As GunaLineTextBox)
+        explorateurDeMedia.ShowDialog()
+        cheminDacces.Text = explorateurDeMedia.FileName()
+    End Sub
 End Module
 

@@ -72,4 +72,8 @@
     Private Sub btn_OuvrirExplorateur_MouseLeave(sender As Object, e As EventArgs) Handles btn_OuvrirExplorateur.MouseLeave
         bulle_Explorateur.Visible = False
     End Sub
+
+    Private Sub btn_OuvrirExplorateur_Click(sender As Object, e As EventArgs) Handles btn_OuvrirExplorateur.Click
+        ExplorerDesMedias(explorerLesImages, LBL_Images)
+    End Sub
 End Class

@@ -37,6 +37,7 @@ Partial Class DescriptionAudio
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btn_OuvrirExplorateur = New Guna.UI.WinForms.GunaAdvenceButton()
         Me.bulle_Explorateur = New Guna.UI.WinForms.GunaLabel()
+        Me.explorateurDeSons = New System.Windows.Forms.OpenFileDialog()
         Me.SuspendLayout()
         '
         'LBL_FichierSonore
@@ -372,4 +373,5 @@ Partial Class DescriptionAudio
     Friend WithEvents Label2 As Label
     Friend WithEvents btn_OuvrirExplorateur As Guna.UI.WinForms.GunaAdvenceButton
     Friend WithEvents bulle_Explorateur As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents explorateurDeSons As OpenFileDialog
 End Class

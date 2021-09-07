@@ -36,6 +36,7 @@ Partial Class DescriptionImage
         Me.Label1 = New System.Windows.Forms.Label()
         Me.bulle_Explorateur = New Guna.UI.WinForms.GunaLabel()
         Me.btn_OuvrirExplorateur = New Guna.UI.WinForms.GunaAdvenceButton()
+        Me.explorerLesImages = New System.Windows.Forms.OpenFileDialog()
         Me.SuspendLayout()
         '
         'annuler
@@ -358,4 +359,5 @@ Partial Class DescriptionImage
     Friend WithEvents Label1 As Label
     Friend WithEvents bulle_Explorateur As Guna.UI.WinForms.GunaLabel
     Friend WithEvents btn_OuvrirExplorateur As Guna.UI.WinForms.GunaAdvenceButton
+    Friend WithEvents explorerLesImages As OpenFileDialog
 End Class
