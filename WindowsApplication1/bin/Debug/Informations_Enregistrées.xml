@@ -720,4 +720,31 @@
     </ListeDePathDesImages1>
     <Numero1>36</Numero1>
   </informationARechercher>
+  <informationARechercher>
+    <Signature1>POUD</Signature1>
+    <Categorie1>POUD</Categorie1>
+    <DateDeCreation1>08/09/2021</DateDeCreation1>
+    <TableauMotCles1>
+      <string>POUD</string>
+      <string>//*none*\\</string>
+      <string>//*none*\\</string>
+      <string>//*none*\\</string>
+      <string>//*none*\\</string>
+      <string>//*none*\\</string>
+      <string>Tous les éléments.</string>
+    </TableauMotCles1>
+    <DescriptionTextuelle1>82,073,069,078,032,065,032,065,074,079,085,084,069,082,032,073,067,073,046,0</DescriptionTextuelle1>
+    <ListeDePathDesMusiques1 />
+    <ListeDePathDesImages1>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\Ajouter des options sur VB.PNG</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\Capture.PNG</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\Group 1.png</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\moidessin.png</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\Group 1.png</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\moidessin.png</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\design\hp2 - Copie.png</string>
+      <string>C:\Users\ARMAND COLLINS MBA\Pictures\Camera Roll\moidessin.png</string>
+    </ListeDePathDesImages1>
+    <Numero1>37</Numero1>
+  </informationARechercher>
 </ArrayOfInformationARechercher>
