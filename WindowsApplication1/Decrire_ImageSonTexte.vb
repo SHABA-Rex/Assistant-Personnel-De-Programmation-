@@ -409,4 +409,9 @@ Public Class Decrire_ImageSonTexte
         afficherLesInfosBulles.Stop()
         seconde4 = 0
     End Sub
+
+    Private Sub ajouterImageOuMusique_Click(sender As Object, e As EventArgs) Handles ajouterImageOuMusique.Click
+        ajoutDimageAvantOuApres = "Apres enregistrement"
+        WindowsApplication1.DescriptionImage.Show()
+    End Sub
 End Class

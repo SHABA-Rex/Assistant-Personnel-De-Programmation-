@@ -25,7 +25,7 @@ Module Les_Fonctions
     Public maPlaylist As New List(Of String)
     Public mesImages As New List(Of String)
     Public numeroDeLinformation = 0
-
+    Public ajoutDimageAvantOuApres As String = "Avant enregistrement" 'Avant ou apres l'enregistrement des images dans à aprtir du formulaire.
     'Public informationAEnregistrer As New informationARechercher()
     '######### VARIABLES UTILISER POUR LE STOCKAGE DANS LE FICHIER XML.
     Public nomDeLelement, categorieDeLelement As String
