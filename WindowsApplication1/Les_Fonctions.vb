@@ -9,7 +9,7 @@ Module Les_Fonctions
     Public optionSelectioner, policeDuTexte, couleurDuFond, couleurDuTexte As String
     Public tailleDuTexte As Integer = 0
     Public Seconde As Integer = 0, compteur As Integer = 0, Seconde2 As Integer = 0, compteur2 As Integer = 0, compteur3 As Integer = 0, dureeInfoBulle As Integer = 1 'Rend ça plus explicite.
-    Public mot As String
+    Public mot As String, ouEstOn As String = "On est sur image"
     Public jeCliqueSurMonter = False, jeCliqueSurDescendre = False
     Public pos, pos2, pos3, pos4 As Point
     Public tabElmt() As Integer = {117, 164, 210, 259, 308, 355, 403}
@@ -25,7 +25,8 @@ Module Les_Fonctions
     Public maPlaylist As New List(Of String)
     Public mesImages As New List(Of String)
     Public numeroDeLinformation = 0
-    Public ajoutDimageAvantOuApres As String = "Avant enregistrement" 'Avant ou apres l'enregistrement des images dans à aprtir du formulaire.
+    Public ajoutDimageAvantOuApres As String = "Avant enregistrement" 'Avant ou apres l'enregistrement des images ou du son  à partir du formulaire.
+    Public ajoutDeMusiqueAvantOuApres As String = "Avant enregistrement"
     'Public informationAEnregistrer As New informationARechercher()
     '######### VARIABLES UTILISER POUR LE STOCKAGE DANS LE FICHIER XML.
     Public nomDeLelement, categorieDeLelement As String

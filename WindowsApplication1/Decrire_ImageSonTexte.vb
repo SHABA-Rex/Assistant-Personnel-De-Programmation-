@@ -203,6 +203,7 @@ Public Class Decrire_ImageSonTexte
     Private Sub descriptionImage_Click(sender As Object, e As EventArgs) Handles descriptionImage.Click
         panneauDeSuppression.Visible = False
         ajouterImageOuMusique.Visible = True
+        ouEstOn = "On est sur image"
         lbl_AjouterImageOuSon.Text = "Ajouter une image."
         optionSelectioner = descriptionImage.Name
         rendreVisibleTousLesElementsDesDescriptions(True)
@@ -242,6 +243,7 @@ Public Class Decrire_ImageSonTexte
         msg_ImageInexistante1.Visible = False
         msg_ImageInexistante2.Visible = False
         ajouterImageOuMusique.Visible = True
+        ouEstOn = "On est sur musique"
         lbl_AjouterImageOuSon.Text = "Ajouter du son."
         optionSelectioner = descriptionSonore.Name
         rendreVisibleTousLesElementsDesDescriptions()
@@ -256,7 +258,7 @@ Public Class Decrire_ImageSonTexte
     End Sub
 
     Private Sub Decrire_ImageSonTexte_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        ouEstOn = "On est sur image"
         Width = 784
         Height = 1382
         ChampTextuel.Text = descriptionTextuelleDeLelement
@@ -369,6 +371,8 @@ Public Class Decrire_ImageSonTexte
     End Sub
 
     Private Sub corbeille_Click(sender As Object, e As EventArgs) Handles corbeille.Click
+        mesImages.Clear()
+        maPlaylist.Clear()
         If (panneauDeSuppression.Visible = False) Then
             panneauDeSuppression.Visible = True
         ElseIf (panneauDeSuppression.Visible = True)
@@ -411,7 +415,14 @@ Public Class Decrire_ImageSonTexte
     End Sub
 
     Private Sub ajouterImageOuMusique_Click(sender As Object, e As EventArgs) Handles ajouterImageOuMusique.Click
-        ajoutDimageAvantOuApres = "Apres enregistrement"
-        WindowsApplication1.DescriptionImage.Show()
+        If ouEstOn = "On est sur image" Then
+            ajoutDimageAvantOuApres = "Apres enregistrement"
+            listeDePathDesImages.Clear()
+            WindowsApplication1.DescriptionImage.Show()
+        ElseIf ouEstOn = "On est sur musique" Then
+            ajoutDeMusiqueAvantOuApres = "Apres enregistrement"
+            listeDePathDeMusiques.Clear()
+            DescriptionAudio.Show()
+        End If
     End Sub
 End Class

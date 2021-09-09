@@ -100,6 +100,10 @@ Public Class DescriptionImage
                 Label1.Text = "La liste possede : " & listeDePathDesImages.LongCount & " éléments."
                 onAcliquerSurLeBouttonPlus = True
                 LBL_Images.Text = ""
+                If Decrire_ImageSonTexte.msg_ImageInexistante1.Visible And Decrire_ImageSonTexte.msg_ImageInexistante2.Visible Then
+                    Decrire_ImageSonTexte.msg_ImageInexistante1.Visible = False
+                    Decrire_ImageSonTexte.msg_ImageInexistante2.Visible = False
+                End If
             Catch ex As Exception
                 MsgBox("L'image n'a pas été ajoutée , Vérifiez bien l'orthographe ! ", MsgBoxStyle.Information, "")
                 MsgBox("Rassurez vous que le chemin d'accès spécifié existe bien !", MsgBoxStyle.Information, "")
