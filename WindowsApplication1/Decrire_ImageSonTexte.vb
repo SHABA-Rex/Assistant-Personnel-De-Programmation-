@@ -147,6 +147,8 @@ Public Class Decrire_ImageSonTexte
 
     Private Sub home_Click(sender As Object, e As EventArgs) Handles home.Click
         panneauDeSuppression.Visible = False
+        msg_ImageInexistante1.Visible = False
+        msg_ImageInexistante2.Visible = False
         lecteurMusique.close()
         Close()
         FenetreTousLesElementsEtBarreDeRecherche.Show()

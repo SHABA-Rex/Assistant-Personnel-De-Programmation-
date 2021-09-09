@@ -244,7 +244,7 @@ Partial Class DescriptionAudio
         Me.aideSupport.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.aideSupport.Font = New System.Drawing.Font("Segoe UI", 9.74!)
         Me.aideSupport.ForeColor = System.Drawing.Color.Black
-        Me.aideSupport.Location = New System.Drawing.Point(-67, 36)
+        Me.aideSupport.Location = New System.Drawing.Point(8, 33)
         Me.aideSupport.Name = "aideSupport"
         Me.aideSupport.Size = New System.Drawing.Size(391, 182)
         Me.aideSupport.TabIndex = 152
